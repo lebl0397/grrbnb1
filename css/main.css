@@ -23,7 +23,7 @@ main{
 header{
     /* Photo by Wyatt Ryan on Unsplash */
     /* Replace this with an image that you select */
-    padding-top: 25px;
+    padding-top: 10px;
     background-image: url("../img/pug-sunglasses.jpg");
     background-size: 100% auto;
     background-position: center center center;
