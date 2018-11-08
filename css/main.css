@@ -18,7 +18,7 @@ html{
 main{
     width: 90%;
     margin: 0 auto;
-    border: 1px solid #aaa;
+   
 }
 header{
     
@@ -29,16 +29,17 @@ header{
     background-size: cover;
     background-size: 100% auto;
     background-position: center center center;
-    
+    border-radius: 15px 50px;
+ 
+ 
 }
 header h1{
     font-size: 4rem;
     line-height: 4rem;
-    padding: 1rem 1rem;
     color: rgba(250,250,250, 0.7);
     text-shadow: 2px 2px 4px #261f75;
     vertical-align: top;
-    text-align: right;
+    text-align: center;
     min-height: 12rem;
 }
 header img{
@@ -47,14 +48,16 @@ header img{
     float:left;
     margin-right: 1rem;
     
+    
 }
 form{
     padding: 1rem 1rem 2rem;
 
+
 }
 .form-box{
     padding: 0.25rem 0 1rem;
-  
+    
 }
 label{
     display: block;
@@ -68,6 +71,7 @@ input{
     padding: 0.2rem 1rem;
     width: 100%;
     color: #efd045;
+    border-radius: 15px 50px; 
 }
 input#min.price::after,
 input.price#max::after{
