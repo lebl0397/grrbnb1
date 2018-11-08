@@ -46,12 +46,15 @@ header img{
     width: 15%;
     float:left;
     margin-right: 1rem;
+    
 }
 form{
     padding: 1rem 1rem 2rem;
+
 }
 .form-box{
     padding: 0.25rem 0 1rem;
+  
 }
 label{
     display: block;
@@ -86,6 +89,7 @@ input.price#max::after{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+      
     }
     .form-box{
         flex-basis: 100%;
